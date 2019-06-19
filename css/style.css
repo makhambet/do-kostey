@@ -1,0 +1,164 @@
+body{
+	margin:0;
+	padding:0;
+	background: #353C42;
+	font-family: 'Exo 2', sans-serif;
+}
+header{
+	background: url(../images/B.jpeg) no-repeat;
+	background-size: 100%;
+	max-width: 1200px;
+	height: 450px;
+	margin: 0 auto;
+	color: #fff;
+	font-weight: bolder;
+	font-size: 20px;
+}
+#wrapper{
+	background: rgba(0,0,0,.68);
+	
+  height: 450px;
+}
+header nav{
+	position: fixed;
+	width: 1120px;
+	padding: 8px 0;
+	padding-left: 30px;
+	padding-right: 50px;
+	
+}
+.headerImg > img{
+	max-width:241px;
+	margin-top: 9px;
+}
+nav{
+	display: flex;
+	justify-content: space-between;
+}
+main{
+	display: flex;
+	justify-content: space-between;
+}
+
+.menu > ul{
+	display: flex;
+	
+}
+.menu > ul li{
+	list-style: none;
+	margin-right: 25px;
+	font-size: 20px;
+}
+.content{
+	padding-top: 125px;
+	width: 90%;
+	margin: 0 10%;
+	display: flex;
+	padding-left: 30px;
+}
+.content > div{
+	padding-right: 60px;
+}
+.black{
+	background: #fff;
+	color: #6F6F6F;
+}
+.contentWord > h1, .contentWord > h4{
+	margin-top: 0;
+	margin-bottom: 0;
+	font-weight: light;
+}
+.contentWordImg{
+	width: 300%;
+	display: flex;
+	font-size: 14px;
+	margin-left: 0;
+	padding-left: 0;
+	border-bottom: 1px solid #fff;
+	padding-bottom: 30px;
+}
+.contentWordImg > div{
+	padding-right: 20px;
+}
+
+.contentH5 >p:first-child{
+	font-size: 30px;
+	font-weight: lighter;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.contentH5 >p:last-child{
+	font-size: 14px;
+	font-weight: lighter;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+
+section{
+	background: url(../images/landing-join-bg.jpg) no-repeat;
+	background-size: 110%;
+	max-width: 1200px;
+	margin: 0 auto;
+	color: #fff;
+	font-size: 18px;
+}
+.wrapper{
+	width: 85%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+.wrapper > img{
+	margin-top: 30px;
+}
+.wrapperWord > p{
+	line-height: 28px;
+}
+section h4{
+	margin-top: 40px;
+	font-size: 36px;
+}
+section .app{
+	margin-top: 50px;
+	margin-bottom: 15px;
+}
+
+
+
+
+
+
+footer{
+	background: #282828;
+	max-width: 1200px;
+	margin: 0 auto;
+	color: #fff;
+	padding-bottom: 20px;
+}
+.follow{
+	display: flex;
+	margin-left: 50px;
+	font-size: 28px;
+	padding-top: 20px;
+}
+.follow img{
+	height: 65px;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+.follow > img:first-child{
+	margin-left: 80px;
+}
+.follow p{
+	line-height: 47px;
+	margin-right: 20px;
+}
+footer .menu > ul li{
+	border-bottom: 1px solid #fff;
+}
+footer nav{
+	padding: 7px 0;
+	width: 93%;
+	margin-left: 2.5%;
+}

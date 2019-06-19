@@ -1,0 +1,131 @@
+<!DOCTYPE>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet">
+  </head>
+  <body>
+
+    <header>
+      <div id="wrapper">
+        <nav class="nav">
+
+          <main>
+            <div class="headerImg">
+              <img src="images/W.png" alt="">
+            </div>
+
+            <div class="menu">
+              <ul>
+                <li>Сериалы</li>
+                <li>Фильмы</li>
+                <li>Магазин</li>
+                <li><i class="fa fa-search"></i></li>
+              </ul>
+            </div>
+          </main>
+
+        <div class="signin">
+          <p>Вход через VK</p>
+        </div>
+
+        </nav>
+
+
+        <div class="content">
+          <div class="contentImg">
+            <img src="images/a.jpg" alt="">
+          </div>
+          <div class="contentWord">
+            <h1>До костей</h1>
+            <h4>To the Bone (2017)</h4>
+            <br>
+            <div class="contentWordImg">
+              <div class="img">
+                <img src="images/series-icon-songs-dark-big.png" alt="">  
+              </div>
+              
+            
+              <div class="contentH5">
+                <p>14</p><p>песен</p> 
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    
+
+    <section>
+      <div class="wrapper">
+        <div class="wrapperWord">
+          <h4>
+            Seriestrack в твоем <br> смартфоне
+          </h4>
+          <p>Хочешь, чтобы песни из сериалов были всегда под рукой? <br>
+          Тогда скачай наше приложение! <br>
+          Никакой регистрации, удобная навигация по каталогу, <br>
+          возможность прослушивания семлов. <br>
+          Не забудь поставить нам хорошую оценку :)</p>
+
+          <div class="app">
+            <img src="images/app-store.png" alt="">
+            <img src="images/app-google.png" alt="">
+          </div>
+        </div>
+        <img src="images/landing-mobile-phone.png" alt="">
+      </div>
+    </section>
+
+    <footer>
+      <div class="follow">
+        <p>Понравилось? Следуй за нами</p>
+        <img src="images/landing-follow-vk-min.png" alt="">
+        <img src="images/landing-follow-fb-min.png" alt="">
+        <img src="images/landing-follow-tw-min.png" alt="">
+      </div>
+      <div class="footerMenu">
+        <nav>
+
+          <main>
+            <div class="footerImg">
+              <img src="images/Q.png" alt="">
+            </div>
+
+            <div class="menu">
+              <ul>
+                <li>Сериалы</li>
+                <li>Фильмы</li>
+                <li>О проекте</li>
+                <li>Магазин</li>
+              </ul>
+            </div>
+          </main>
+
+        <div class="signin">
+          <p> &#169;2018, seriestrack.ru</p>
+        </div>
+
+        </nav>
+      </div>
+    </footer>
+
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+
+    <script>
+      $(window).on("scroll", function() {
+        if($(window).scrollTop()){
+          $('.nav').addClass('black');
+        }
+        else{
+          $('.nav').removeClass('black');
+        }
+      });
+    </script>
+  </body>
+</html>
